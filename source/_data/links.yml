@@ -1,1 +1,20 @@
-Xujiayao's Blog: https://blog.xujiayao.top
+- class_name:
+  class_desc: <blockquote><p>所有友链按添加时间排序。</p><p>感谢您的到来。如果愿意和本站结为相识，很乐意与您互换友链。</p><p>需要注意的是，本站不提供免费广告位。单向或有添加 NoFollow 标签的友链本站会添加 <code>rel="noopener external nofollow noreferrer"</code> 标签。</p></blockquote>
+  link_list:
+
+- class_name: 友情链接
+  class_desc: 那些人，那些事
+  link_list:
+  # 记得要去 config.yml 修改 NoFollow 插件 Exclude 设置
+    - name: Xujiayao's Blog
+      link: https://blog.xujiayao.com/
+      avatar: https://blog.xujiayao.com/file/avatar.png
+      descr: 没有个性，如何签名？
+
+- class_name: 网站
+  class_desc: 值得推荐的网站
+  link_list:
+
+- class_name: 单向 (NoFollow) 友链 / 取消本站的友链 / 无法访问的友链
+  class_desc: <p>相识也是缘份</p><blockquote><p>若您与本站的友链已经恢复，请在下方评论区留言。我看到后会第一时间恢复友链。</p></blockquote>
+  link_list:

@@ -33,7 +33,7 @@ code_word_wrap: false
 social:
   fab fa-github: https://github.com/GDBDwang || GitHub
   fab fa-bilibili: https://space.bilibili.com/520283193 || 哔哩哔哩
-  fas fa-envelope: mailto:gdbdwang@gmail.com || Email
+  fas fa-envelope: mailto:gdbdwang@outlook.com || Email
   fas fa-rss: /atom.xml || RSS
 
 # Image (圖片設置)
@@ -656,7 +656,7 @@ mask:
 rightside_bottom:
 
 # Enter transitions (開啓網頁進入效果)
-enter_transitions: true
+enter_transitions: false
 
 # Typewriter Effect (打字效果)
 # https://github.com/disjukr/activate-power-mode
@@ -681,7 +681,7 @@ canvas_ribbon:
 
 # Fluttering Ribbon (動態彩帶)
 canvas_fluttering_ribbon:
-  enable: true
+  enable: false
   mobile: false
 
 # canvas_nest
@@ -696,7 +696,7 @@ canvas_nest:
 
 # Mouse click effects: fireworks (鼠標點擊效果: 煙火特效)
 fireworks:
-  enable: true
+  enable: false
   zIndex: 9999 # -1 or 9999
   mobile: false
 
@@ -913,6 +913,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/file/custom.css">
 
   bottom:
     # - <script src="xxxx"></script>
@@ -992,5 +993,5 @@ CDN:
     # typed:
     # utils:
     # valine:
-    waline_css: https://cdn.jsdelivr.net/npm/@waline/client@2/dist/waline.css
-    waline_js: https://cdn.jsdelivr.net/npm/@waline/client@2/dist/waline.min.js
+    # waline_css:
+    # waline_js:

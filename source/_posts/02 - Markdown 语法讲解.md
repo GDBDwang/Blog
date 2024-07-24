@@ -1,5 +1,7 @@
 ---
 title: Markdown 语法讲解
+cover: /file/posts/4fd719ff/cover.png
+background: url(/file/posts/4fd719ff/cover.png)
 tags:
   - Markdown
   - 标记语言
@@ -7,9 +9,11 @@ categories:
   - 教程
   - Markdown
 description: 如何使用 Markdown 语法撰写文章，这篇文章能够告诉你！
-abbrlink: c81ea237
+abbrlink: 4fd719ff
 date: 2022-10-20 15:36:06
 ---
+
+> 此文章内容引用自 [Markdown 语法讲解 | Xujiayao's Blog](https://blog.xujiayao.com/posts/c81ea237/)。
 
 如何使用 Markdown 语法撰写文章，这篇文章能够告诉你！
 
@@ -64,12 +68,6 @@ date: 2022-10-20 15:36:06
 
 {% hideToggle 代码较长，为您收藏 %}
 ```markdown
-> 推荐同时使用 [Typora](https://www.typora.io/) 和 [Notepad++](https://notepad-plus-plus.org/) 进行编辑。
-> 
->> 1. Notepad++ 的代码高亮功能完善，看 Markdown 文件源代码的时候特别舒服。
->> 2. Typora 可以实时渲染出效果，支持快速上传拖拽到窗口的图片到图床。
->> 3. 两款软件都非常轻便简洁。
-
 # 大标题 #
 
 ## 先让我们添加一个二级标题。 ##

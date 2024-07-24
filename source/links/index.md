@@ -11,4 +11,4 @@ type: "link"
 > 博客名称：Richard's Blog
 博客描述：熟悉的路，已然全无。
 博客链接：https://blog.richardw.top/
-博客图标：https://blog.richardw.top/file/image/avatar.png
+博客图标：https://blog.richardw.top/file/avatar.png

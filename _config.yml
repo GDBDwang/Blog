@@ -6,7 +6,6 @@
 title: Richard's Blog
 subtitle: 熟悉的路，已然全无。
 description: Richard's Blog
-email: gdbdwang@gmail.com
 keywords:
   - CES8367
   - Richard
@@ -18,8 +17,10 @@ timezone: Asia/Shanghai
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://blog.richardw.top/
-root: /
-permalink: :year/:month/:day/:title/
+permalink: posts/:abbrlink/
+abbrlink:
+  alg: crc32
+  rep: hex
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -48,15 +49,14 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+syntax_highlighter: highlight.js
 highlight:
-  enable: true
   line_number: true
   auto_detect: false
   tab_replace: ''
   wrap: true
   hljs: false
 prismjs:
-  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -108,9 +108,28 @@ theme: butterfly
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:GDBDwang/GDBDwang.github.io.git
+  repo: https://github.com/GDBDwang/GDBDwang.github.io.git
   branch: master
 
-# hexo-renderer-marked插件配置
+sitemap:
+  path: sitemap.xml
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: false
+
+search:
+  path: search.xml
+  field: post
+  content: true
+
+nofollow:
+  enable: true
+  field: site
+  exclude:
+    - 'blog.xujiayao.com'
+
+# hexo-renderer-marked
 marked:
   smartypants: false
